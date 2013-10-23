@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.chenyc.myjoke"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white" >
+
+    <com.aphidmobile.flip.FlipViewController
+        android:id="@+id/filpView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:orientation="vertical" >
+    </com.aphidmobile.flip.FlipViewController>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/details_bottom_height"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/abs__ab_bottom_transparent_light_holo"
+        android:orientation="horizontal" >
+
+        <com.chenyc.myjoke.view.CustomButton
+            android:id="@+id/rlGood"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            Image="@drawable/button_details_good_default"
+            ImageID="@+id/imageview_details_good"
+            Text="@string/DetailsGood"
+            TextID="@+id/textview_details_good"
+            android:background="@drawable/back_button_default_style"
+            android:clickable="true" />
+
+        <com.chenyc.myjoke.view.CustomButton
+            android:id="@+id/rlCollect"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            Image="@drawable/button_details_collect_default"
+            ImageID="@+id/imageview_details_collect"
+            Text="@string/DetailsCollect"
+            TextID="@+id/textview_details_collect"
+            android:background="@drawable/back_button_default_style"
+            android:clickable="true" />
+
+        <com.chenyc.myjoke.view.CustomButton
+            android:id="@+id/rlShare"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            Image="@drawable/button_details_share_default"
+            ImageID="@+id/imageview_details_share"
+            Text="@string/DetailsShare"
+            TextID="@+id/textview_details_share"
+            android:background="@drawable/back_button_default_style"
+            android:clickable="true" />
+    </LinearLayout>
+
+</RelativeLayout>

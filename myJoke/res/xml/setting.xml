@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="图片设置" >
+        <CheckBoxPreference
+            android:key="auto_load_img_in_wifi_preference"
+            android:summary="只在WIFI模式下加载图片"
+            android:defaultValue="false"
+            android:title="智能模式" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

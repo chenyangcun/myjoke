@@ -1,0 +1,72 @@
+<resources>
+
+    <string name="app_name">我爱微笑话</string>
+    <string name="app_desc">笑一笑,十年少</string>
+    <string name="menu_settings">Settings</string>
+
+    <string-array name="menu_titles">
+        <item>微笑话</item>
+        <item>我的收藏</item>
+        <item>我的资料</item>
+        <item>系统设置</item>
+        <item>意见反馈</item>
+        <item>求好评</item>
+    </string-array>
+
+    <integer-array name="menu_imgs">
+        <item>@drawable/ic_menu_joke</item>
+        <item>@drawable/ic_action_unfav</item>
+        <item>@drawable/ic_action_me</item>
+        <item>@drawable/ic_setting</item>
+        <item>@drawable/ic_action_advice</item>
+        <item>@drawable/ic_action_market</item>
+    </integer-array>
+
+    <string-array name="channel_names">
+        <item>微笑话</item>
+        <item>搞笑长图</item>
+        <item>搞笑动态图</item>
+        <item>校园笑话</item>
+        <item>职场笑话</item>
+        <item>暴走漫画</item>
+        <item>亲子笑话</item>
+        <item>恋人笑话</item>
+    </string-array>
+    <string-array name="channel_ids">
+        <item>40</item>
+        <item>2027</item>
+        <item>903</item>
+        <item>1987</item>
+        <item>2031</item>
+        <item>2025</item>
+        <item>2018</item>
+        <item>2019</item>
+    </string-array>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="ptr_pull_to_refresh">Pull to refresh</string>
+    <string name="ptr_release_to_refresh">Release to refresh</string>
+    <string name="ptr_refreshing">Refreshing</string>
+    <string name="ptr_last_updated">Updated: %1$s</string>
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="save_success">保存成功！</string>
+    <string name="save_fail">保存失敗！</string>
+    <string name="action_bar_share_with">分享</string>
+    <string name="menu_copy">复制</string>
+    <string name="copy_succeed">复制成功！</string>
+    <string name="action_bar_fav">收藏</string>
+
+    <!-- 详情菜单 -->
+    <string name="DetailsGood">不错</string>
+    <string name="DetailsBed">一般般</string>
+    <string name="DetailsCollect">收藏</string>
+    <string name="DetailsShare">分享</string>
+    <string name="DetailsDiscuss">评论</string>
+
+</resources>

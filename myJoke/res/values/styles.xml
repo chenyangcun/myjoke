@@ -1,0 +1,19 @@
+<resources>
+
+    <style name="AppTheme" parent="@style/Holo.Theme.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/Widget.Styled.ActionBar</item>
+        <item name="homeAsUpIndicator">@drawable/ic_action_back</item>
+        <item name="logo">@drawable/up_with_padding</item>
+    </style>
+
+    <style name="Widget.Styled.ActionBar" parent="Widget.Sherlock.Light.ActionBar.Solid.Inverse">
+        <item name="background">@drawable/base_actionbar_bg</item>
+        <item name="android:background">@drawable/base_actionbar_bg</item>
+    </style>
+    
+    
+     <style name="no_action_bar" parent="Theme.Sherlock.NoActionBar">
+    </style>
+    
+
+</resources>
